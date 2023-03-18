@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <!-- google font -->
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="CSS/landingPage.css" />
+    <title>LandingPage</title>
+  </head>
+  <body>
+    <header>
+      <!-- Header content goes here -->
+      <nav>
+        <div class="container navbar_con">
+          <div class="navbar_items">
+            <div class="logo">
+              <a href="#"><img src="images/logo 4.png" alt="Logo" /></a>
+              <span data-i18n="betools">بي تولز</span>
+            </div>
+            <div class="navigation">
+              <ul class="links">
+                <li>
+                  <a href="#" lang="en" data-i18n="home" class="active"
+                    >الرئيسية</a
+                  >
+                </li>
+                <li><a href="#" data-i18n="services">الخدمات</a></li>
+                <li><a href="#" data-i18n="downloadapp">تحميل التطبيق</a></li>
+                <li><a href="#" data-i18n="about">معلومات عنا</a></li>
+                <li><a href="#" data-i18n="contact">تواصل معنا</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="navbar_btns">
+            <div class="language">
+              <i class="fas fa-globe"></i>
+              <span data-i18n="en">EN</span>
+            </div>
+            <button class="btn" data-i18n="login">تسجيل</button>
+            <button class="btn_primary" data-i18n="subscribe">اشتراك</button>
+            <span class="mobile_menu"><i class="fa-solid fa-bars"></i></span>
+            <select data-i18n="selectLanguage">
+              <option value="en" data-i18n="english">English</option>
+              <option value="ar" data-i18n="arabic">العربية</option>
+            </select>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <section
+          class="header_page d-flex justify-content-between align-items-center pt-5"
+        >
+          <div class="text_content">
+            <h2 data-i18n="title_header">
+              نقدم مجموعة من الخدمات التى سوف تساعد في تسهيل احتياجاتك العملية
+            </h2>
+            <p data-i18n="par_header">
+              هدفنا هو إرضاء العميل عن خدماتنا التي نقدمها لنمو أعماله على
+              الانترنت، في مختلف النواحي من خلال الخدمات التي يوفرها التطبيق
+            </p>
+            <div class="btns d-flex align-items-center gap-3 mt-5">
+              <button class="btn btn_pr d-flex align-items-center gap-1">
+                <span class="icon_play">
+                  <i class="fa-solid fa-play"></i>
+                </span>
+                <span data-i18n="btn_showVideo">شاهد الفيديو</span>
+              </button>
+              <button
+                class="btn d-flex justify-content-center align-items-center btn_yl"
+              >
+                <span data-i18n="btn_startNow">ابدأ الآن</span>
+                <span class="me-2"><i class="fa-solid fa-arrow-left"></i></span>
+              </button>
+            </div>
+          </div>
+          <div class="content_image">
+            <img
+              src="images/Home - Client_iphone13blue_portrait 1.png"
+              alt="Image"
+            />
+          </div>
+        </section>
+        <div class="disc_images d-flex gap-3 pt-5">
+          <div class="image_left">
+            <img class="" src="images/Rectangle 64.png" alt="dic_image" />
+          </div>
+          <div class="image_right">
+            <img class="" src="images//Rectangle 65.png" alt="dic_image" />
+          </div>
+        </div>
+        <div class="con_text_g services pt-5 mt-4 text-center">
+          <div class="text">
+            <h2>خدماتنا</h2>
+            <p>نحن نقدم مجموعة واسعة من الخدمات</p>
+          </div>
+        </div>
+        <div class="card_services"></div>
+        <!-- end services -->
+        <div class="con_text_g video_sec pt-5 mt-4 text-center">
+          <div class="text">
+            <h2>شاهد الفيديو</h2>
+            <p>نحن نقدم مجموعة واسعة من الخدمات</p>
+          </div>
+          <div class="container">
+            <div class="video_image">
+              <span class="icon_play">
+                <i class="fa-solid fa-play"></i>
+              </span>
+              <img src="images/Rectangle 59.png" alt="video_image" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="con_text_g app_sec pt-5 mt-4 text-center">
+        <div class="text">
+          <h2>واجهات التطبيق</h2>
+          <p>نحن نقدم مجموعة واسعة من الخدمات</p>
+        </div>
+        <div class="app_sec">
+          <div class="app-container d-flex justify-content-center flex-wrap">
+            <div>
+              <img
+                src="images/Splash Screen_iphone13blue_portrait 1.png"
+                alt="Image 1"
+              />
+            </div>
+            <div>
+              <img
+                src="images/Home - Client_iphone13blue_portrait 1.png"
+                alt="Image 2"
+              />
+            </div>
+            <div>
+              <img
+                src="images/Study Services Page_iphone13blue_portrait 1.png"
+                alt="Image 3"
+              />
+            </div>
+            <div>
+              <img
+                src="images/Add a Camera request (Camera Rental)_iphone13blue_portrait 1.png"
+                alt="Image 4"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clint_res container">
+        <div class="con_text_g video_sec pt-5 mt-4 text-center">
+          <div class="text">
+            <h2>اراء العملاء</h2>
+            <p>نحن نقدم مجموعة واسعة من الخدمات</p>
+          </div>
+        </div>
+        <div class="clint_content">
+          <div class="row mb-4">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div class="clint_div d-flex align-items-center">
+                <div class="image">
+                  <img src="images/BG.png" alt="client image" />
+                </div>
+                <div class="clint_text">
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p>
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل
+                    هذا النص أو العديد
+                  </p>
+                  <h3>لينا صبيح <span>مسوق</span></h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div class="clint_div d-flex align-items-center">
+                <div class="image">
+                  <img src="images/BG (1).png" alt="client image" />
+                </div>
+                <div class="clint_text">
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p>
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل
+                    هذا النص أو العديد
+                  </p>
+                  <h3>سعدي حرب <span>مصمم</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div class="clint_div d-flex align-items-center">
+                <div class="image">
+                  <img src="images/BG (2).png" alt="client image" />
+                </div>
+                <div class="clint_text">
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p>
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل
+                    هذا النص أو العديد
+                  </p>
+                  <h3>احمد أضيهر <span>مصمم</span></h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <div class="clint_div d-flex align-items-center">
+                <div class="image">
+                  <img src="images/BG (3).png" alt="client image" />
+                </div>
+                <div class="clint_text">
+                  <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div>
+                  <p>
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+                    توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل
+                    هذا النص أو العديد
+                  </p>
+                  <h3>ريم حسن  <span>مسوق</span></h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end clint_sec -->
+      <div class="subscrip_sec pt-5">
+        <div class="container sub_bg">
+          <h3>اشترك في نشرتنا الإخبارية</h3>
+          <form action="">
+            <input type="text" placeholder="الاسم كامل" />
+            <input type="email" placeholder="البريد الالكترني" />
+            <button type="submit">اشترك الان</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="pt-5">
+      <div class="footer_con container">
+        <div class="row footer_row">
+          <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+            <div class="logo">
+              <a href="#"><img src="images/logo 4.png" alt="Logo" /></a>
+              <span data-i18n="betools">بي تولز</span>
+            </div>
+            <p class="first_p">
+              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+              هذا النص من مولد النص العربى،
+            </p>
+            <div class="icons">
+              <a href="https://github.com/yourusername"><i class="fab fa-github"></i></a>
+              <a href="https://dribbble.com/yourusername"><i class="fab fa-dribbble"></i></a>
+              <a href="https://www.facebook.com/yourpage"><i class="fab fa-facebook fc"></i></a>
+              <a href="https://twitter.com/yourhandle"><i class="fab fa-twitter"></i></a>
+            </div>
+           
+          </div>
+          <div class="links_con col-lg-3 col-md-6 col-sm-12 col-xs-12">
+            <div class="link_title">
+
+              <a class="link_g" href="#">شركة</a>
+            </div>
+            <div class="footer_links d-block">
+              <a href="#">عن الشركه</a>
+              <a href="#">الخدمات</a>
+              <a href="#">كيف نعمل</a>
+              <a href="#">اراء العملاء</a>
+            </div>
+          </div>
+          <div class="links_con col-lg-3 col-md-6 col-sm-12 col-xs-12">
+            <div class="link_title">
+
+              <a class="link_g" href="#">المساعدة</a>
+            </div>
+            <div class="footer_links d-block">
+              <a href="#">دعم العملاء</a>
+              <a href="#">الاسئله الشائعه</a>
+              <a href="#">البنود والاحكام</a>
+              <a href="#">سياسه الخصوصيه</a>
+            </div>
+          </div>
+          <div class=" sicial_stor col-lg-3 col-md-6 col-sm-12 col-xs-12">
+            <div class="images">
+              <img src="images/Mobile app store badge.png" alt="mobile">
+              <img src="images/Mobile app store badge (1).png" alt="mobile">
+            </div>
+          </div>
+        </div>
+        <hr>
+        <p class="last_p">© Copyright 2023, All Rights Reserved by Ptoolz</p>
+      </div>
+    </footer>
+    <!-- i18next library -->
+    <script src="https://cdn.jsdelivr.net/npm/i18next/dist/umd/i18next.min.js"></script>
+    <!-- Language files -->
+    <script src="i18n/en.json"></script>
+    <script src="i18n/ar.json"></script>
+    <!-- bootstrap -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/landingPage.js"></script>
+  </body>
+</html>
